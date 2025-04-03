@@ -1,0 +1,109 @@
+.contact-container-title-1{
+    font-size: 3rem;
+}
+.contact-container-title-1-highlight{
+    color: #0048ff;
+}
+.download-btn{
+    height: 50px;
+    width: 200px;
+    border-radius: 75px;
+    font-size: 25px;
+    border: none;
+    background-color: #0048ff;
+    color: white;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.download-btn:hover{
+    background-color: hsl(223, 100%, 45%);
+    transition: 0.3s ease;
+}
+.contact-container-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.contact-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contact-div ol{
+    list-style: none;
+}
+.contact-div-ol{
+    font-size: 2rem;
+    font-weight: bold;
+}
+@media(max-width: 1070px){
+    .contact-container-title-1{
+        font-size: 2rem;
+    }
+    .contact-div-ol{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
+@media(max-width: 1024px){
+    .contact-container-title-1{
+        font-size: 2rem;
+    }
+    .contact-div-ol{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
+@media (max-width: 900px){
+    .contact-container-title-1{
+        font-size: 1.8rem;
+    }
+    .contact-div-ol{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}
+@media(max-width:800px) and (max-width:850){
+    .contact-container-title-1{
+        font-size: 1.2rem;
+    }
+    .contact-div-ol{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
+@media (max-width:650px){
+    .contact-container-title-1{
+        font-size: 1.2rem;
+    }
+    .contact-div-ol{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
+@media (max-width:450px){
+    .contact-container-title{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .contact-container-title-1{
+        font-size: 1.8rem;
+    }
+    .contact-div-ol{
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    .download-btn{
+        height: 50px;
+        width: 160px;
+        font-size: 25px;
+        margin-left:10%;
+    }
+}
