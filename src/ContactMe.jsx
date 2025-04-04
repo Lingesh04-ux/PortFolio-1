@@ -15,7 +15,7 @@ function ContactMe() {
         <li className='contact-div-li'>Email - lingeshhari4@gmail.com</li>
         <li className='contact-div-li'>Phone - 90*****</li>
         <li className='contact-div-li'>Resume - 
-          <a {require("/assets/Resume.pdf")} download="Resume.pdf">
+          <a {require("./assets/Resume.pdf")} download="Resume.pdf">
             <button className='download-btn'>Download</button>
           </a>
         </li>
